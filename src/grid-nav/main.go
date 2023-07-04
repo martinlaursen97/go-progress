@@ -102,7 +102,6 @@ func clearPos(gridP *Grid, pos Position) {
 func mainLoop(gridP *Grid) {
 	pos := Position{x: 0, y: 0}
 	setPos(gridP, pos)
-	(*gridP)[pos.x][pos.y] = 1
 
 	for {
 		printGrid(*gridP)
