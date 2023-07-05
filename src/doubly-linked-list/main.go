@@ -1,5 +1,9 @@
 package main
 
+//////////////////////
+// LinkedList in Go //
+//////////////////////
+
 import "fmt"
 
 type Node[T any] struct {
